@@ -11,7 +11,7 @@ const corsOptions = {
   origin: [
     'http://localhost:5173',
     'http://localhost:3000',
-    'https://yaalir-travel-planning-app.vercel.app'
+    process.env.FRONTEND_URL || 'https://yaalir-travel-planning-app.vercel.app'
   ],
   credentials: true,
   optionsSuccessStatus: 200
