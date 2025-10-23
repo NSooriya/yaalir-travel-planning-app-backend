@@ -512,7 +512,194 @@
     "name": "sooriya",
     "email": "sooriya@gmail.com",
     "passwordHash": "$2a$10$h5U0aKB193thN.GlZrei/eDrdMlQlgG/VwFjZYMcnWfdPV5gwBIu2",
+    "bookmarks": [
+      "Mahabalipuram Group of Monuments",
+      "Vivekananda Rock Memorial"
+    ],
+    "itineraries": [
+      {
+        "id": 1761239197051,
+        "createdAt": "2025-10-23T17:06:37.051Z",
+        "travelers": "5",
+        "duration": 3,
+        "budget": "50000",
+        "itinerary": [
+          {
+            "day": 1,
+            "region": "Chennai City",
+            "places": [
+              {
+                "name": "Fort St. George",
+                "location": "Chennai",
+                "category": "historical",
+                "duration": "2 hours",
+                "entry_fee": "₹15 (Indians), ₹200 (Foreigners)",
+                "image": "/images/Fort St. George.jpg"
+              },
+              {
+                "name": "San Thome Basilica",
+                "location": "Chennai",
+                "category": "spiritual",
+                "duration": "1 hour",
+                "entry_fee": "Free",
+                "image": "/images/San Thome Basilica.jpg"
+              }
+            ],
+            "estimatedCost": 12500
+          },
+          {
+            "day": 2,
+            "region": "Mahabalipuram",
+            "places": [
+              {
+                "name": "Mahabalipuram Group of Monuments",
+                "location": "Chengalpattu District",
+                "category": "historical",
+                "duration": "Full day",
+                "entry_fee": "₹40 (Indians), ₹600 (Foreigners)",
+                "image": "/images/Mahabalipuram Group of Monuments.jpg"
+              },
+              {
+                "name": "Pancha Rathas",
+                "location": "Mahabalipuram, Chengalpattu District",
+                "category": "historical",
+                "duration": "1-2 hours",
+                "entry_fee": "Included in Mahabalipuram ticket",
+                "image": "/images/Pancha Rathas.webp"
+              }
+            ],
+            "estimatedCost": 15000
+          },
+          {
+            "day": 3,
+            "region": "Mahabalipuram & Return",
+            "places": [
+              {
+                "name": "Arjuna's Penance",
+                "location": "Mahabalipuram, Chengalpattu District",
+                "category": "historical",
+                "duration": "30 minutes",
+                "entry_fee": "Included in Mahabalipuram ticket",
+                "image": "/images/Arjuna's Penance.jpg"
+              },
+              {
+                "name": "Kanchipuram Silk Sarees",
+                "location": "Kanchipuram",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹5,000 - ₹2,00,000",
+                "image": "/images/Kanchipuram Silk Sarees.jpg"
+              }
+            ],
+            "estimatedCost": 12500
+          }
+        ],
+        "summary": {
+          "travelers": "5",
+          "duration": 3,
+          "packageName": "Chennai Weekend Package",
+          "description": "Perfect for a weekend getaway - All locations within 60km radius",
+          "totalPlaces": 6,
+          "estimatedTotalCost": 40000,
+          "budgetMatch": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "sooriya",
+    "email": "nagarajansooriya@gmail.com",
+    "passwordHash": "$2a$10$XOQZq.iPVywUuOdFG1TJMOK7pXdn4rxhlLfAUdt72M/GqexoJ/T..",
     "bookmarks": [],
-    "itineraries": []
+    "itineraries": [
+      {
+        "id": 1761238934735,
+        "createdAt": "2025-10-23T17:02:14.735Z",
+        "travelers": 2,
+        "duration": 3,
+        "budget": "50000",
+        "itinerary": [
+          {
+            "day": 1,
+            "region": "Chennai City",
+            "places": [
+              {
+                "name": "Fort St. George",
+                "location": "Chennai",
+                "category": "historical",
+                "duration": "2 hours",
+                "entry_fee": "₹15 (Indians), ₹200 (Foreigners)",
+                "image": "/images/Fort St. George.jpg"
+              },
+              {
+                "name": "San Thome Basilica",
+                "location": "Chennai",
+                "category": "spiritual",
+                "duration": "1 hour",
+                "entry_fee": "Free",
+                "image": "/images/San Thome Basilica.jpg"
+              }
+            ],
+            "estimatedCost": 5000
+          },
+          {
+            "day": 2,
+            "region": "Mahabalipuram",
+            "places": [
+              {
+                "name": "Mahabalipuram Group of Monuments",
+                "location": "Chengalpattu District",
+                "category": "historical",
+                "duration": "Full day",
+                "entry_fee": "₹40 (Indians), ₹600 (Foreigners)",
+                "image": "/images/Mahabalipuram Group of Monuments.jpg"
+              },
+              {
+                "name": "Pancha Rathas",
+                "location": "Mahabalipuram, Chengalpattu District",
+                "category": "historical",
+                "duration": "1-2 hours",
+                "entry_fee": "Included in Mahabalipuram ticket",
+                "image": "/images/Pancha Rathas.webp"
+              }
+            ],
+            "estimatedCost": 6000
+          },
+          {
+            "day": 3,
+            "region": "Mahabalipuram & Return",
+            "places": [
+              {
+                "name": "Arjuna's Penance",
+                "location": "Mahabalipuram, Chengalpattu District",
+                "category": "historical",
+                "duration": "30 minutes",
+                "entry_fee": "Included in Mahabalipuram ticket",
+                "image": "/images/Arjuna's Penance.jpg"
+              },
+              {
+                "name": "Kanchipuram Silk Sarees",
+                "location": "Kanchipuram",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹5,000 - ₹2,00,000",
+                "image": "/images/Kanchipuram Silk Sarees.jpg"
+              }
+            ],
+            "estimatedCost": 5000
+          }
+        ],
+        "summary": {
+          "travelers": 2,
+          "duration": 3,
+          "packageName": "Chennai Weekend Package",
+          "description": "Perfect for a weekend getaway - All locations within 60km radius",
+          "totalPlaces": 6,
+          "estimatedTotalCost": 16000,
+          "budgetMatch": true
+        }
+      }
+    ]
   }
 ]
