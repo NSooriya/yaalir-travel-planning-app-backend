@@ -1,0 +1,233 @@
+{
+  "en": {
+    "translation": {
+      "nav": {
+        "home": "Home",
+        "explore": "Explore",
+        "itinerary": "Plan Trip",
+        "marketplace": "Marketplace",
+        "profile": "Profile",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout"
+      },
+      "home": {
+        "hero_title": "Discover Tamil Nadu's Rich Heritage",
+        "hero_subtitle": "Explore ancient temples, historic monuments, and vibrant traditions",
+        "explore_btn": "Start Exploring",
+        "plan_btn": "Plan Your Trip",
+        "popular_title": "Popular Destinations",
+        "spiritual_title": "Spiritual Circuits",
+        "crafts_title": "Traditional Crafts"
+      },
+      "explore": {
+        "title": "Explore Tamil Nadu Heritage",
+        "filter_all": "All",
+        "filter_historical": "Historical",
+        "filter_spiritual": "Spiritual",
+        "filter_crafts": "Crafts",
+        "entry_fee": "Entry Fee",
+        "timings": "Timings",
+        "view_map": "View on Map",
+        "bookmark": "Bookmark"
+      },
+      "itinerary": {
+        "title": "Create Your Perfect Itinerary",
+        "travelers": "Number of Travelers",
+        "duration": "Trip Duration (days)",
+        "budget": "Budget Range",
+        "interests": "Interests",
+        "interest_historical": "Historical Sites",
+        "interest_spiritual": "Spiritual Places",
+        "interest_crafts": "Handicrafts",
+        "interest_food": "Food & Culture",
+        "generate_btn": "Generate Itinerary",
+        "save_btn": "Save Itinerary",
+        "day": "Day"
+      },
+      "marketplace": {
+        "title": "Traditional Tamil Nadu Handicrafts",
+        "price": "Price",
+        "contact_seller": "Contact Seller",
+        "cultural_info": "Cultural Background"
+      },
+      "profile": {
+        "title": "My Profile",
+        "bookmarks": "My Bookmarks",
+        "itineraries": "Saved Itineraries",
+        "edit": "Edit Profile",
+        "save": "Save Changes"
+      },
+      "auth": {
+        "login_title": "Login to Your Account",
+        "register_title": "Create New Account",
+        "email": "Email",
+        "password": "Password",
+        "name": "Full Name",
+        "login_btn": "Login",
+        "register_btn": "Register",
+        "no_account": "Don't have an account?",
+        "have_account": "Already have an account?"
+      },
+      "common": {
+        "loading": "Loading...",
+        "error": "Something went wrong",
+        "success": "Success!"
+      }
+    }
+  },
+  "ta": {
+    "translation": {
+      "nav": {
+        "home": "முகப்பு",
+        "explore": "ஆராய்க",
+        "itinerary": "பயணத் திட்டம்",
+        "marketplace": "சந்தை",
+        "profile": "சுயவிவரம்",
+        "login": "உள்நுழைக",
+        "register": "பதிவு செய்க",
+        "logout": "வெளியேறு"
+      },
+      "home": {
+        "hero_title": "தமிழ்நாட்டின் வளமான பாரம்பரியத்தை கண்டுபிடியுங்கள்",
+        "hero_subtitle": "பண்டைய கோயில்கள், வரலாற்று நினைவுச்சின்னங்கள் மற்றும் துடிப்பான பாரம்பரியங்களை ஆராயுங்கள்",
+        "explore_btn": "ஆராயத் தொடங்குங்கள்",
+        "plan_btn": "உங்கள் பயணத்தைத் திட்டமிடுங்கள்",
+        "popular_title": "பிரபலமான இடங்கள்",
+        "spiritual_title": "ஆன்மீக சுற்றுகள்",
+        "crafts_title": "பாரம்பரிய கைவினைப் பொருட்கள்"
+      },
+      "explore": {
+        "title": "தமிழ்நாடு பாரம்பரியத்தை ஆராயுங்கள்",
+        "filter_all": "அனைத்தும்",
+        "filter_historical": "வரலாற்று",
+        "filter_spiritual": "ஆன்மீக",
+        "filter_crafts": "கைவினை",
+        "entry_fee": "நுழைவுக் கட்டணம்",
+        "timings": "நேரங்கள்",
+        "view_map": "வரைபடத்தில் பார்க்க",
+        "bookmark": "புக்மார்க்"
+      },
+      "itinerary": {
+        "title": "உங்கள் சரியான பயணத் திட்டத்தை உருவாக்குங்கள்",
+        "travelers": "பயணிகளின் எண்ணிக்கை",
+        "duration": "பயண காலம் (நாட்கள்)",
+        "budget": "பட்ஜெட் வரம்பு",
+        "interests": "ஆர்வங்கள்",
+        "interest_historical": "வரலாற்று இடங்கள்",
+        "interest_spiritual": "ஆன்மீக இடங்கள்",
+        "interest_crafts": "கைவினைப்பொருட்கள்",
+        "interest_food": "உணவு மற்றும் கலாச்சாரம்",
+        "generate_btn": "பயணத் திட்டத்தை உருவாக்கு",
+        "save_btn": "பயணத் திட்டத்தை சேமிக்கவும்",
+        "day": "நாள்"
+      },
+      "marketplace": {
+        "title": "பாரம்பரிய தமிழ்நாடு கைவினைப்பொருட்கள்",
+        "price": "விலை",
+        "contact_seller": "விற்பனையாளரை தொடர்பு கொள்ளுங்கள்",
+        "cultural_info": "கலாச்சார பின்னணி"
+      },
+      "profile": {
+        "title": "எனது சுயவிவரம்",
+        "bookmarks": "எனது புக்மார்க்குகள்",
+        "itineraries": "சேமித்த பயணத் திட்டங்கள்",
+        "edit": "சுயவிவரத்தைத் திருத்து",
+        "save": "மாற்றங்களைச் சேமி"
+      },
+      "auth": {
+        "login_title": "உங்கள் கணக்கில் உள்நுழைக",
+        "register_title": "புதிய கணக்கை உருவாக்கவும்",
+        "email": "மின்னஞ்சல்",
+        "password": "கடவுச்சொல்",
+        "name": "முழு பெயர்",
+        "login_btn": "உள்நுழைக",
+        "register_btn": "பதிவு செய்க",
+        "no_account": "கணக்கு இல்லையா?",
+        "have_account": "ஏற்கனவே கணக்கு உள்ளதா?"
+      },
+      "common": {
+        "loading": "ஏற்றுகிறது...",
+        "error": "ஏதோ தவறு நடந்துவிட்டது",
+        "success": "வெற்றி!"
+      }
+    }
+  },
+  "ja": {
+    "translation": {
+      "nav": {
+        "home": "ホーム",
+        "explore": "探索",
+        "itinerary": "旅行計画",
+        "marketplace": "マーケット",
+        "profile": "プロフィール",
+        "login": "ログイン",
+        "register": "登録",
+        "logout": "ログアウト"
+      },
+      "home": {
+        "hero_title": "タミルナードゥの豊かな遺産を発見",
+        "hero_subtitle": "古代寺院、歴史的建造物、活気ある伝統を探索",
+        "explore_btn": "探索を始める",
+        "plan_btn": "旅行を計画",
+        "popular_title": "人気の目的地",
+        "spiritual_title": "スピリチュアルサーキット",
+        "crafts_title": "伝統工芸品"
+      },
+      "explore": {
+        "title": "タミルナードゥの遺産を探索",
+        "filter_all": "すべて",
+        "filter_historical": "歴史的",
+        "filter_spiritual": "スピリチュアル",
+        "filter_crafts": "工芸品",
+        "entry_fee": "入場料",
+        "timings": "営業時間",
+        "view_map": "地図で見る",
+        "bookmark": "ブックマーク"
+      },
+      "itinerary": {
+        "title": "完璧な旅程を作成",
+        "travelers": "旅行者数",
+        "duration": "旅行期間（日数）",
+        "budget": "予算範囲",
+        "interests": "興味",
+        "interest_historical": "歴史的な場所",
+        "interest_spiritual": "精神的な場所",
+        "interest_crafts": "手工芸品",
+        "interest_food": "食文化",
+        "generate_btn": "旅程を生成",
+        "save_btn": "旅程を保存",
+        "day": "日"
+      },
+      "marketplace": {
+        "title": "伝統的なタミルナードゥの手工芸品",
+        "price": "価格",
+        "contact_seller": "販売者に連絡",
+        "cultural_info": "文化的背景"
+      },
+      "profile": {
+        "title": "マイプロフィール",
+        "bookmarks": "マイブックマーク",
+        "itineraries": "保存された旅程",
+        "edit": "プロフィールを編集",
+        "save": "変更を保存"
+      },
+      "auth": {
+        "login_title": "アカウントにログイン",
+        "register_title": "新しいアカウントを作成",
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "name": "フルネーム",
+        "login_btn": "ログイン",
+        "register_btn": "登録",
+        "no_account": "アカウントをお持ちでないですか？",
+        "have_account": "すでにアカウントをお持ちですか？"
+      },
+      "common": {
+        "loading": "読み込み中...",
+        "error": "エラーが発生しました",
+        "success": "成功！"
+      }
+    }
+  }
+}

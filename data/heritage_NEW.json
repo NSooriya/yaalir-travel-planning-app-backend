@@ -1,0 +1,450 @@
+[
+  {
+    "id": "gangaikonda-cholapuram",
+    "name": "Gangaikonda Cholapuram",
+    "category": "historical",
+    "location": "Jayankondam, Ariyalur District",
+    "description": "A magnificent Chola-era temple dedicated to Lord Shiva, built by Rajendra I in the 11th century. It features a towering vimana and intricate sculptures.",
+    "entry_fee": "Free",
+    "timing": "6:00 AM - 12:00 PM, 4:00 PM - 8:30 PM",
+    "coordinates": {
+      "lat": 11.2083,
+      "lng": 79.4372
+    },
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2-3 hours"
+  },
+  {
+    "id": "mahabalipuram",
+    "name": "Mahabalipuram Group of Monuments",
+    "category": "historical",
+    "location": "Chengalpattu District",
+    "description": "A UNESCO World Heritage Site featuring a collection of 7th and 8th-century religious monuments, including the Shore Temple, Pancha Rathas, and Arjuna's Penance.",
+    "entry_fee": "₹40 (Indians), ₹600 (Foreigners)",
+    "timing": "6:00 AM - 6:00 PM",
+    "coordinates": {
+      "lat": 12.6208,
+      "lng": 80.1989
+    },
+    "image": "https://images.unsplash.com/photo-1609920658906-8223bd289001?w=800&h=600&fit=crop",
+    "bestTime": "November to February",
+    "duration": "Full day"
+  },
+  {
+    "id": "pancha-rathas",
+    "name": "Pancha Rathas",
+    "category": "historical",
+    "location": "Mahabalipuram, Chengalpattu District",
+    "description": "A set of five monolithic rock-cut temples, each carved out of a single granite block. They are named after the Pandava brothers and their wife, Draupadi.",
+    "entry_fee": "Included in Mahabalipuram ticket",
+    "timing": "6:00 AM - 6:00 PM",
+    "coordinates": {
+      "lat": 12.6186,
+      "lng": 80.1923
+    },
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800&h=600&fit=crop",
+    "bestTime": "November to February",
+    "duration": "1-2 hours"
+  },
+  {
+    "id": "arjunas-penance",
+    "name": "Arjuna's Penance",
+    "category": "historical",
+    "location": "Mahabalipuram, Chengalpattu District",
+    "description": "A gigantic open-air rock relief carved on two huge boulders. It depicts scenes from the Mahabharata and the descent of the Ganges.",
+    "entry_fee": "Included in Mahabalipuram ticket",
+    "timing": "6:00 AM - 6:00 PM",
+    "coordinates": {
+      "lat": 12.6242,
+      "lng": 80.1932
+    },
+    "image": "https://images.unsplash.com/photo-1609920658618-a330f5f370e8?w=800&h=600&fit=crop",
+    "bestTime": "November to February",
+    "duration": "30 minutes"
+  },
+  {
+    "id": "fort-st-george",
+    "name": "Fort St. George",
+    "category": "historical",
+    "location": "Chennai",
+    "description": "The first English fortress in India, founded in 1644. It houses the St. Mary's Church and the Fort Museum.",
+    "entry_fee": "₹15 (Indians), ₹200 (Foreigners)",
+    "timing": "9:00 AM - 5:00 PM (Closed Friday)",
+    "coordinates": {
+      "lat": 13.0797,
+      "lng": 80.2888
+    },
+    "image": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800&h=600&fit=crop",
+    "bestTime": "November to February",
+    "duration": "2 hours"
+  },
+  {
+    "id": "san-thome-basilica",
+    "name": "San Thome Basilica",
+    "category": "spiritual",
+    "location": "Chennai",
+    "description": "A beautiful Roman Catholic minor basilica built over the tomb of St. Thomas the Apostle. The current structure was built in 1893.",
+    "entry_fee": "Free",
+    "timing": "6:00 AM - 9:00 PM",
+    "coordinates": {
+      "lat": 13.0333,
+      "lng": 80.2772
+    },
+    "image": "https://images.unsplash.com/photo-1609882206767-6feb9175e1c4?w=800&h=600&fit=crop",
+    "bestTime": "Year-round",
+    "duration": "1 hour"
+  },
+  {
+    "id": "hogenakkal-falls",
+    "name": "Hogenakkal Waterfalls",
+    "category": "historical",
+    "location": "Dharmapuri District",
+    "description": "A series of waterfalls on the Kaveri River. The name 'Hogenakkal' means 'smoky rocks' in Kannada, and it's a popular site for bathing and boat rides.",
+    "entry_fee": "Free (Coracle rides extra)",
+    "timing": "6:00 AM - 6:00 PM",
+    "coordinates": {
+      "lat": 12.1190,
+      "lng": 77.7792
+    },
+    "image": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&h=600&fit=crop",
+    "bestTime": "July to October (monsoon)",
+    "duration": "3-4 hours"
+  },
+  {
+    "id": "dindigul-fort",
+    "name": "Dindigul Rock Fort",
+    "category": "historical",
+    "location": "Dindigul",
+    "description": "A hill fort with a Shiva temple, built by the Madurai Nayaks in the 16th century. It offers panoramic views of the city.",
+    "entry_fee": "Free",
+    "timing": "9:00 AM - 5:30 PM",
+    "coordinates": {
+      "lat": 10.3673,
+      "lng": 77.9803
+    },
+    "image": "https://images.unsplash.com/photo-1605649487212-47a8c49636e1?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2 hours"
+  },
+  {
+    "id": "kodaikanal-lake",
+    "name": "Kodaikanal Lake & Colonial Promenade",
+    "category": "historical",
+    "location": "Kodaikanal, Dindigul District",
+    "description": "A man-made lake with a promenade. The area is known for its colonial-era bungalows and heritage buildings.",
+    "entry_fee": "Free (Boating extra)",
+    "timing": "Open 24/7",
+    "coordinates": {
+      "lat": 10.2381,
+      "lng": 77.4892
+    },
+    "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&h=600&fit=crop",
+    "bestTime": "April to June, September to October",
+    "duration": "Half day"
+  },
+  {
+    "id": "vivekananda-rock",
+    "name": "Vivekananda Rock Memorial",
+    "category": "spiritual",
+    "location": "Kanniyakumari",
+    "description": "A popular monument built on a rock where Swami Vivekananda is believed to have attained enlightenment.",
+    "entry_fee": "Ferry ₹50, Entry ₹20",
+    "timing": "8:00 AM - 4:00 PM",
+    "coordinates": {
+      "lat": 8.0781,
+      "lng": 77.5525
+    },
+    "image": "https://images.unsplash.com/photo-1609920658273-c38d0dcfe6d3?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2-3 hours"
+  },
+  {
+    "id": "thiruvalluvar-statue",
+    "name": "Thiruvalluvar Statue",
+    "category": "historical",
+    "location": "Kanniyakumari",
+    "description": "A 133-foot-tall statue of the Tamil poet and philosopher, Thiruvalluvar, located on a small island near the Vivekananda Rock Memorial.",
+    "entry_fee": "Included with Vivekananda ticket",
+    "timing": "8:00 AM - 4:00 PM",
+    "coordinates": {
+      "lat": 8.0775,
+      "lng": 77.5538
+    },
+    "image": "https://images.unsplash.com/photo-1609920658956-d0e4a75311e5?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "1 hour"
+  },
+  {
+    "id": "padmanabhapuram-palace",
+    "name": "Padmanabhapuram Palace",
+    "category": "historical",
+    "location": "Kanniyakumari District",
+    "description": "A beautiful wooden palace of the Travancore kings, known for its intricate carvings and architecture.",
+    "entry_fee": "₹35 (Indians), ₹200 (Foreigners)",
+    "timing": "9:00 AM - 5:00 PM (Closed Monday)",
+    "coordinates": {
+      "lat": 8.2446,
+      "lng": 77.3278
+    },
+    "image": "https://images.unsplash.com/photo-1609882206767-6feb9175e1c4?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2 hours"
+  },
+  {
+    "id": "krishnagiri-fort",
+    "name": "Krishnagiri Fort",
+    "category": "historical",
+    "location": "Krishnagiri",
+    "description": "A hill fort with ruins of palaces and temples, offering panoramic views of the surrounding area.",
+    "entry_fee": "Free",
+    "timing": "8:00 AM - 5:00 PM",
+    "coordinates": {
+      "lat": 12.5186,
+      "lng": 78.2137
+    },
+    "image": "https://images.unsplash.com/photo-1609920658618-a330f5f370e8?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2 hours"
+  },
+  {
+    "id": "thirumalai-nayak-palace",
+    "name": "Thirumalai Nayak Palace",
+    "category": "historical",
+    "location": "Madurai",
+    "description": "A grand palace built in 1636 by King Thirumalai Nayak of the Madurai Nayak dynasty. It is a classic example of Indo-Saracenic architecture.",
+    "entry_fee": "₹10 (Indians), ₹50 (Foreigners)",
+    "timing": "9:00 AM - 5:00 PM",
+    "coordinates": {
+      "lat": 9.9195,
+      "lng": 78.1193
+    },
+    "image": "https://images.unsplash.com/photo-1609920658618-a330f5f370e8?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2 hours"
+  },
+  {
+    "id": "meenakshi-temple",
+    "name": "Meenakshi Amman Temple",
+    "category": "spiritual",
+    "location": "Madurai",
+    "description": "A historic Hindu temple dedicated to Goddess Meenakshi and Lord Sundareswarar. Known for its towering gopurams and intricate sculptures.",
+    "entry_fee": "Free (Camera ₹50)",
+    "timing": "5:00 AM - 12:30 PM, 4:00 PM - 9:30 PM",
+    "coordinates": {
+      "lat": 9.9195,
+      "lng": 78.1193
+    },
+    "image": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800&h=600&fit=crop",
+    "bestTime": "Year-round",
+    "duration": "2-3 hours"
+  },
+  {
+    "id": "tharangambadi-fort",
+    "name": "Tharangambadi Danish Fort",
+    "category": "historical",
+    "location": "Mayiladuthurai District",
+    "description": "A 17th-century Danish fort also known as Fort Dansborg. It now houses a museum.",
+    "entry_fee": "₹10 (Indians), ₹100 (Foreigners)",
+    "timing": "10:00 AM - 5:00 PM (Closed Friday)",
+    "coordinates": {
+      "lat": 11.0287,
+      "lng": 79.8562
+    },
+    "image": "https://images.unsplash.com/photo-1605649487212-47a8c49636e1?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2 hours"
+  },
+  {
+    "id": "velankanni-basilica",
+    "name": "Basilica of Our Lady of Good Health",
+    "category": "spiritual",
+    "location": "Nagapattinam District",
+    "description": "A prominent Roman Catholic basilica and Marian pilgrimage center.",
+    "entry_fee": "Free",
+    "timing": "24/7",
+    "coordinates": {
+      "lat": 10.6833,
+      "lng": 79.8500
+    },
+    "image": "https://images.unsplash.com/photo-1609882206767-6feb9175e1c4?w=800&h=600&fit=crop",
+    "bestTime": "Year-round",
+    "duration": "1-2 hours"
+  },
+  {
+    "id": "nilgiri-railway",
+    "name": "Nilgiri Mountain Railway",
+    "category": "historical",
+    "location": "Nilgiris District",
+    "description": "A UNESCO World Heritage Site, this narrow-gauge railway runs from Mettupalayam to Ooty, offering a scenic journey through the hills.",
+    "entry_fee": "Varies by class",
+    "timing": "Varies by schedule",
+    "coordinates": {
+      "lat": 11.4102,
+      "lng": 76.6950
+    },
+    "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&h=600&fit=crop",
+    "bestTime": "April to June, September to November",
+    "duration": "Full day"
+  },
+  {
+    "id": "ooty-botanical-garden",
+    "name": "Government Botanical Garden",
+    "category": "historical",
+    "location": "Ooty, Nilgiris District",
+    "description": "A large public garden in Ooty, known for its well-maintained lawns and diverse plant species.",
+    "entry_fee": "₹30 (Indians), ₹50 (Foreigners)",
+    "timing": "7:00 AM - 6:30 PM",
+    "coordinates": {
+      "lat": 11.4064,
+      "lng": 76.7012
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&h=600&fit=crop",
+    "bestTime": "April to June",
+    "duration": "2 hours"
+  },
+  {
+    "id": "sittanavasal-cave",
+    "name": "Sittanavasal Cave",
+    "category": "historical",
+    "location": "Pudukkottai District",
+    "description": "A 7th-century rock-cut Jain cave temple known for its beautiful frescoes.",
+    "entry_fee": "₹15 (Indians), ₹200 (Foreigners)",
+    "timing": "9:00 AM - 5:00 PM (Closed Friday)",
+    "coordinates": {
+      "lat": 10.4797,
+      "lng": 78.8209
+    },
+    "image": "https://images.unsplash.com/photo-1609920658273-c38d0dcfe6d3?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "1-2 hours"
+  },
+  {
+    "id": "pamban-bridge",
+    "name": "Pamban Bridge",
+    "category": "historical",
+    "location": "Ramanathapuram District",
+    "description": "India's first sea bridge, connecting mainland India with Rameswaram Island.",
+    "entry_fee": "Free",
+    "timing": "24/7",
+    "coordinates": {
+      "lat": 9.2839,
+      "lng": 79.2247
+    },
+    "image": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&h=600&fit=crop",
+    "bestTime": "Year-round",
+    "duration": "30 minutes"
+  },
+  {
+    "id": "sankagiri-fort",
+    "name": "Sankagiri Fort",
+    "category": "historical",
+    "location": "Salem District",
+    "description": "A hill fort with a temple and several other structures, a site of historical importance during the British rule.",
+    "entry_fee": "Free",
+    "timing": "8:00 AM - 6:00 PM",
+    "coordinates": {
+      "lat": 11.4562,
+      "lng": 77.8730
+    },
+    "image": "https://images.unsplash.com/photo-1605649487212-47a8c49636e1?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2-3 hours"
+  },
+  {
+    "id": "chettinad-mansions",
+    "name": "Chettinad Mansions",
+    "category": "historical",
+    "location": "Sivaganga District",
+    "description": "A collection of grand mansions built by the wealthy Chettiar community, known for their unique architecture and intricate carvings.",
+    "entry_fee": "Varies (some private)",
+    "timing": "Varies",
+    "coordinates": {
+      "lat": 10.0836,
+      "lng": 78.8203
+    },
+    "image": "https://images.unsplash.com/photo-1609920658618-a330f5f370e8?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "Half day"
+  },
+  {
+    "id": "thanjavur-palace",
+    "name": "Thanjavur Maratha Palace",
+    "category": "historical",
+    "location": "Thanjavur",
+    "description": "A palace complex that includes the Saraswathi Mahal Library, an art gallery, and a museum.",
+    "entry_fee": "₹50 (Indians), ₹100 (Foreigners)",
+    "timing": "9:00 AM - 1:00 PM, 2:00 PM - 5:00 PM",
+    "coordinates": {
+      "lat": 10.7867,
+      "lng": 79.1378
+    },
+    "image": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2-3 hours"
+  },
+  {
+    "id": "brihadeeswara-temple",
+    "name": "Brihadeeswara Temple",
+    "category": "spiritual",
+    "location": "Thanjavur",
+    "description": "A UNESCO World Heritage Site, this magnificent temple was built by Raja Raja Chola I in the 11th century. Known for its massive tower and Nandi statue.",
+    "entry_fee": "Free",
+    "timing": "6:00 AM - 8:30 PM",
+    "coordinates": {
+      "lat": 10.7825,
+      "lng": 79.1313
+    },
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&h=600&fit=crop",
+    "bestTime": "Year-round",
+    "duration": "2 hours"
+  },
+  {
+    "id": "vaigai-dam",
+    "name": "Vaigai Dam",
+    "category": "historical",
+    "location": "Theni District",
+    "description": "A large dam built across the Vaigai River. The dam has a scenic garden known as the Vaigai Dam Garden.",
+    "entry_fee": "Free",
+    "timing": "6:00 AM - 6:00 PM",
+    "coordinates": {
+      "lat": 10.1667,
+      "lng": 77.5000
+    },
+    "image": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "1-2 hours"
+  },
+  {
+    "id": "vellore-fort",
+    "name": "Vellore Fort",
+    "category": "historical",
+    "location": "Vellore",
+    "description": "A large 16th-century fort that houses a temple, a mosque, and a church.",
+    "entry_fee": "Free",
+    "timing": "8:00 AM - 6:00 PM",
+    "coordinates": {
+      "lat": 12.9165,
+      "lng": 79.1325
+    },
+    "image": "https://images.unsplash.com/photo-1605649487212-47a8c49636e1?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "2 hours"
+  },
+  {
+    "id": "gingee-fort",
+    "name": "Gingee (Senji) Fort",
+    "category": "historical",
+    "location": "Viluppuram District",
+    "description": "A massive hill fort complex consisting of three hills, known for its impressive architecture and history.",
+    "entry_fee": "₹15 (Indians), ₹200 (Foreigners)",
+    "timing": "9:00 AM - 5:00 PM",
+    "coordinates": {
+      "lat": 12.2528,
+      "lng": 79.4167
+    },
+    "image": "https://images.unsplash.com/photo-1605649487212-47a8c49636e1?w=800&h=600&fit=crop",
+    "bestTime": "October to March",
+    "duration": "3-4 hours"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "mp1",
+    "name": "Kanchipuram Pure Silk Saree",
+    "category": "Textiles",
+    "price": "₹15,000",
+    "description": "Handwoven pure silk saree with traditional temple border and gold zari work. This masterpiece takes 15-20 days to weave.",
+    "culturalBackground": "Kanchipuram silk weaving has been a tradition for over 400 years. The silk is sourced from Karnataka and the zari from Gujarat, representing India's cultural unity.",
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800",
+    "seller": "Kanchipuram Silk Weavers Cooperative",
+    "inStock": true
+  },
+  {
+    "id": "mp2",
+    "name": "Thanjavur Dancing Doll",
+    "category": "Art & Craft",
+    "price": "₹800",
+    "description": "Traditional bobblehead doll made of terracotta with hand-painted details. These dolls never fall due to their unique center of gravity design.",
+    "culturalBackground": "Dating back to the Maratha period in Thanjavur, these dolls symbolize resilience and balance. They were originally made for royal families.",
+    "image": "https://images.unsplash.com/photo-1590212151175-e58edd96185b?w=800",
+    "seller": "Thanjavur Artisan Guild",
+    "inStock": true
+  },
+  {
+    "id": "mp3",
+    "name": "Tanjore Painting",
+    "category": "Art & Craft",
+    "price": "₹12,000",
+    "description": "Traditional Tanjore painting with gold foil work depicting Lord Krishna. Hand-painted on wooden board with semi-precious stones.",
+    "culturalBackground": "Tanjore paintings originated in Thanjavur during the Chola dynasty. They are known for their rich colors, gold foil, and embellishments with precious stones.",
+    "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800",
+    "seller": "Thanjavur Art Academy",
+    "inStock": true
+  },
+  {
+    "id": "mp4",
+    "name": "Bronze Nataraja Statue",
+    "category": "Sculptures",
+    "price": "₹25,000",
+    "description": "Hand-crafted bronze statue of Lord Nataraja using the traditional lost-wax casting method. Height: 12 inches.",
+    "culturalBackground": "Bronze sculptures have been crafted in Tamil Nadu since the Chola period (9th-13th century). Nataraja represents the cosmic dance of creation and destruction.",
+    "image": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800",
+    "seller": "Swamimalai Bronze Artisans",
+    "inStock": true
+  },
+  {
+    "id": "mp5",
+    "name": "Chettinad Cotton Saree",
+    "category": "Textiles",
+    "price": "₹3,500",
+    "description": "Handwoven cotton saree with traditional Chettinad patterns in vibrant colors. Perfect for daily wear and temple visits.",
+    "culturalBackground": "Chettinad cotton weaving is known for its bold patterns and vibrant colors, reflecting the rich merchant culture of the Chettiar community.",
+    "image": "https://images.unsplash.com/photo-1583391733956-6c78276477e5?w=800",
+    "seller": "Chettinad Weavers Society",
+    "inStock": true
+  },
+  {
+    "id": "mp6",
+    "name": "Pattamadai Palm Leaf Mat",
+    "category": "Home Decor",
+    "price": "₹2,000",
+    "description": "Handwoven mat made from dried palm leaves with intricate patterns. Eco-friendly and naturally cooling.",
+    "culturalBackground": "Pattamadai mats have been woven for over 200 years. They were traditionally used by royal families and are known for their fine quality.",
+    "image": "https://images.unsplash.com/photo-1601887370962-78b79f8fe0da?w=800",
+    "seller": "Pattamadai Mat Weavers",
+    "inStock": true
+  },
+  {
+    "id": "mp7",
+    "name": "Madurai Sungudi Fabric",
+    "category": "Textiles",
+    "price": "₹800",
+    "description": "Traditional tie-and-dye cotton fabric in vibrant colors. Known for its durability and unique patterns.",
+    "culturalBackground": "Sungudi is a 300-year-old art form from Madurai. The natural dyes and tie-dye technique create unique patterns on cotton fabric.",
+    "image": "https://images.unsplash.com/photo-1558769132-cb1aea3c4845?w=800",
+    "seller": "Madurai Sungudi Collective",
+    "inStock": true
+  },
+  {
+    "id": "mp8",
+    "name": "Temple Jewelry Set",
+    "category": "Jewelry",
+    "price": "₹8,500",
+    "description": "Traditional temple jewelry necklace set with antique gold finish. Inspired by temple architecture and deities.",
+    "culturalBackground": "Temple jewelry was originally worn by temple dancers (Devadasis). The designs are inspired by South Indian temple architecture.",
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800",
+    "seller": "Chennai Jewelry Artisans",
+    "inStock": true
+  },
+  {
+    "id": "mp9",
+    "name": "Tirunelveli Wheat Halwa",
+    "category": "Food",
+    "price": "₹600/kg",
+    "description": "Authentic Tirunelveli halwa made with pure ghee, wheat, and cashews. Packed in traditional containers.",
+    "culturalBackground": "This recipe dates back over 100 years and uses water from the Thamirabarani river, giving it a unique taste.",
+    "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdb5e9f?w=800",
+    "seller": "Tirunelveli Halwa House",
+    "inStock": true
+  },
+  {
+    "id": "mp10",
+    "name": "Bhavani Jamakalam Carpet",
+    "category": "Home Decor",
+    "price": "₹5,000",
+    "description": "Handwoven cotton carpet with traditional geometric patterns. Size: 6x4 feet. Durable and machine washable.",
+    "culturalBackground": "Bhavani has been weaving Jamakalam for over 400 years. These carpets were used in royal palaces and are known for their durability.",
+    "image": "https://images.unsplash.com/photo-1600166898405-da9535204843?w=800",
+    "seller": "Bhavani Weavers Cooperative",
+    "inStock": true
+  }
+]

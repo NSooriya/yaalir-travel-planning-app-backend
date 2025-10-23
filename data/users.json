@@ -1,0 +1,518 @@
+[
+  {
+    "id": 1,
+    "name": "Demo User",
+    "email": "demo@example.com",
+    "passwordHash": "$2a$10$xQZ9vXKjXZ8YwXK7X8YwXe8YwXK7X8YwXK7X8YwXK7X8YwXK7X8Yw",
+    "bookmarks": [],
+    "itineraries": []
+  },
+  {
+    "id": 2,
+    "name": "test",
+    "email": "sooriyanagarajan30@gmail.com",
+    "passwordHash": "$2a$10$PQE1GMbj.ihJH/K4U9Hhi.DGGOvlU7S84eRzT/O4NBujaUq5TNOe2",
+    "bookmarks": [],
+    "itineraries": [
+      {
+        "id": 1761143816186,
+        "createdAt": "2025-10-22T14:36:56.187Z",
+        "travelers": 2,
+        "duration": 3,
+        "budget": "50000",
+        "interests": [
+          "historical"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "places": [
+              {
+                "id": "gangaikonda",
+                "name": "Gangaikonda Cholapuram",
+                "category": "historical",
+                "location": "Jayankondam, Ariyalur District",
+                "description": "Built by Rajendra Chola I in 1035 CE, this magnificent temple celebrates his victory over the Ganges. It's one of the largest Shiva temples in Tamil Nadu and a UNESCO World Heritage Site.",
+                "entry_fee": "₹25 (Indians), ₹300 (Foreigners)",
+                "timing": "6:00 AM - 6:00 PM",
+                "coordinates": {
+                  "lat": 11.2083,
+                  "lng": 79.4372
+                },
+                "image": "https://picsum.photos/seed/gangaikonda/800/600",
+                "bestTime": "October to March",
+                "duration": "2-3 hours"
+              },
+              {
+                "id": "mahabalipuram",
+                "name": "Mahabalipuram",
+                "category": "historical",
+                "location": "Chengalpattu District",
+                "description": "A UNESCO World Heritage Site, Mahabalipuram is famous for its rock-cut architecture and stone sculptures dating back to the 7th-8th centuries. The Shore Temple and Five Rathas are iconic landmarks.",
+                "entry_fee": "₹40 (Indians), ₹600 (Foreigners)",
+                "timing": "6:00 AM - 6:00 PM",
+                "coordinates": {
+                  "lat": 12.6208,
+                  "lng": 80.1989
+                },
+                "image": "https://picsum.photos/seed/mahabalipuram/800/600",
+                "bestTime": "November to February",
+                "duration": "4-5 hours"
+              }
+            ],
+            "estimatedCost": 1130
+          },
+          {
+            "day": 2,
+            "places": [
+              {
+                "id": "fort-st-george",
+                "name": "Fort St. George",
+                "category": "historical",
+                "location": "Chennai",
+                "description": "Built in 1644 by the British East India Company, this fort is the first English fortress in India. It now houses the Tamil Nadu Legislative Assembly and a museum with colonial artifacts.",
+                "entry_fee": "₹15 (Indians), ₹200 (Foreigners)",
+                "timing": "9:00 AM - 5:00 PM (Closed Fridays)",
+                "coordinates": {
+                  "lat": 13.0797,
+                  "lng": 80.2886
+                },
+                "image": "https://picsum.photos/seed/fortstgeorge/800/600",
+                "bestTime": "December to February",
+                "duration": "2 hours"
+              },
+              {
+                "id": "pancha-rathas",
+                "name": "Pancha Rathas",
+                "category": "historical",
+                "location": "Mahabalipuram, Chengalpattu District",
+                "description": "Five monolithic rock-cut temples carved from a single granite rock, each named after the Pandavas. Dating to the 7th century, these showcase Dravidian architecture at its finest.",
+                "entry_fee": "₹40 (Indians), ₹600 (Foreigners)",
+                "timing": "6:00 AM - 6:00 PM",
+                "coordinates": {
+                  "lat": 12.6172,
+                  "lng": 80.1923
+                },
+                "image": "https://picsum.photos/seed/pancharathas/800/600",
+                "bestTime": "November to February",
+                "duration": "1-2 hours"
+              }
+            ],
+            "estimatedCost": 1110
+          },
+          {
+            "day": 3,
+            "places": [
+              {
+                "id": "arjunas-penance",
+                "name": "Arjuna's Penance",
+                "category": "historical",
+                "location": "Mahabalipuram, Chengalpattu District",
+                "description": "One of the largest open-air rock reliefs in the world, this 7th-century masterpiece depicts scenes from Hindu mythology. The intricate carvings cover a massive granite rock face.",
+                "entry_fee": "Free",
+                "timing": "24 hours",
+                "coordinates": {
+                  "lat": 12.6236,
+                  "lng": 80.1981
+                },
+                "image": "https://picsum.photos/seed/arjunaspenance/800/600",
+                "bestTime": "November to February",
+                "duration": "1 hour"
+              }
+            ],
+            "estimatedCost": 1000
+          }
+        ],
+        "summary": {
+          "travelers": 2,
+          "duration": 3,
+          "totalPlaces": 5,
+          "estimatedTotalCost": 3240,
+          "budgetMatch": true
+        }
+      },
+      {
+        "id": 1761158018558,
+        "createdAt": "2025-10-22T18:33:38.558Z",
+        "travelers": "3",
+        "duration": "5",
+        "budget": "50000",
+        "itinerary": [
+          {
+            "day": 1,
+            "region": "Chennai Arrival",
+            "places": [
+              {
+                "name": "Fort St. George",
+                "location": "Chennai",
+                "category": "historical",
+                "duration": "2 hours",
+                "entry_fee": "₹15 (Indians), ₹200 (Foreigners)",
+                "image": "/images/Fort St. George.jpg"
+              },
+              {
+                "name": "San Thome Basilica",
+                "location": "Chennai",
+                "category": "spiritual",
+                "duration": "1 hour",
+                "entry_fee": "Free",
+                "image": "/images/San Thome Basilica.jpg"
+              }
+            ],
+            "estimatedCost": 7500
+          },
+          {
+            "day": 2,
+            "region": "Mahabalipuram",
+            "places": [
+              {
+                "name": "Mahabalipuram Group of Monuments",
+                "location": "Chengalpattu District",
+                "category": "historical",
+                "duration": "Full day",
+                "entry_fee": "₹40 (Indians), ₹600 (Foreigners)",
+                "image": "/images/Mahabalipuram Group of Monuments.jpg"
+              },
+              {
+                "name": "Pancha Rathas",
+                "location": "Mahabalipuram, Chengalpattu District",
+                "category": "historical",
+                "duration": "1-2 hours",
+                "entry_fee": "Included in Mahabalipuram ticket",
+                "image": "/images/Pancha Rathas.webp"
+              }
+            ],
+            "estimatedCost": 9000
+          },
+          {
+            "day": 3,
+            "region": "Travel to Thanjavur (340km)",
+            "places": [
+              {
+                "name": "Gangaikonda Cholapuram",
+                "location": "Jayankondam, Ariyalur District",
+                "category": "historical",
+                "duration": "2-3 hours",
+                "entry_fee": "Free",
+                "image": "/images/Gangaikondacholapuram_Temple_4.webp"
+              }
+            ],
+            "estimatedCost": 10500
+          },
+          {
+            "day": 4,
+            "region": "Thanjavur",
+            "places": [
+              {
+                "name": "Brihadeeswara Temple",
+                "location": "Thanjavur",
+                "category": "spiritual",
+                "duration": "2 hours",
+                "entry_fee": "Free",
+                "image": "/images/Brihadeeswara Temple.webp"
+              },
+              {
+                "name": "Thanjavur Maratha Palace",
+                "location": "Thanjavur",
+                "category": "historical",
+                "duration": "2-3 hours",
+                "entry_fee": "₹50 (Indians), ₹100 (Foreigners)",
+                "image": "/images/Thanjavur Maratha Palace.jpg"
+              },
+              {
+                "name": "Thanjavur Paintings",
+                "location": "Thanjavur",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹2,000 - ₹50,000",
+                "image": "/images/Thanjavur Paintings.jpg"
+              }
+            ],
+            "estimatedCost": 8400
+          },
+          {
+            "day": 5,
+            "region": "Return Journey",
+            "places": [
+              {
+                "name": "Swamimalai Bronze Sculptures",
+                "location": "Swamimalai, Thanjavur",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹10,000 - ₹5,00,000",
+                "image": "/images/Swamimalai Bronze Sculptures.avif"
+              }
+            ],
+            "estimatedCost": 6000
+          }
+        ],
+        "summary": {
+          "travelers": "3",
+          "duration": 5,
+          "packageName": "Temple Circuit Package",
+          "description": "Chennai to Thanjavur temple trail - Southern heritage highlights",
+          "totalPlaces": 9,
+          "estimatedTotalCost": 41400,
+          "budgetMatch": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Nags Srini",
+    "email": "Nags@vh.com",
+    "passwordHash": "$2a$10$3K86s1C7Hc0sg5teSQlkf.5byfV3D73HHvzbfGQcqRxYMnCOL2mTK",
+    "bookmarks": [],
+    "itineraries": [
+      {
+        "id": 1761155574411,
+        "createdAt": "2025-10-22T17:52:54.411Z",
+        "travelers": "1",
+        "duration": "10",
+        "budget": "200000",
+        "itinerary": [
+          {
+            "day": 1,
+            "region": "Chennai",
+            "places": [
+              {
+                "name": "Fort St. George",
+                "location": "Chennai",
+                "category": "historical",
+                "duration": "2 hours",
+                "entry_fee": "₹15 (Indians), ₹200 (Foreigners)",
+                "image": "/images/Fort St. George.jpg"
+              },
+              {
+                "name": "San Thome Basilica",
+                "location": "Chennai",
+                "category": "spiritual",
+                "duration": "1 hour",
+                "entry_fee": "Free",
+                "image": "/images/San Thome Basilica.jpg"
+              }
+            ],
+            "estimatedCost": 2500
+          },
+          {
+            "day": 2,
+            "region": "Mahabalipuram",
+            "places": [
+              {
+                "name": "Mahabalipuram Group of Monuments",
+                "location": "Chengalpattu District",
+                "category": "historical",
+                "duration": "Full day",
+                "entry_fee": "₹40 (Indians), ₹600 (Foreigners)",
+                "image": "/images/Mahabalipuram Group of Monuments.jpg"
+              },
+              {
+                "name": "Pancha Rathas",
+                "location": "Mahabalipuram, Chengalpattu District",
+                "category": "historical",
+                "duration": "1-2 hours",
+                "entry_fee": "Included in Mahabalipuram ticket",
+                "image": "/images/Pancha Rathas.webp"
+              }
+            ],
+            "estimatedCost": 3200
+          },
+          {
+            "day": 3,
+            "region": "Travel to Thanjavur",
+            "places": [
+              {
+                "name": "Gangaikonda Cholapuram",
+                "location": "Jayankondam, Ariyalur District",
+                "category": "historical",
+                "duration": "2-3 hours",
+                "entry_fee": "Free",
+                "image": "/images/Gangaikondacholapuram_Temple_4.webp"
+              },
+              {
+                "name": "Kanchipuram Silk Sarees",
+                "location": "Kanchipuram",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹5,000 - ₹2,00,000",
+                "image": "/images/Kanchipuram Silk Sarees.jpg"
+              }
+            ],
+            "estimatedCost": 3500
+          },
+          {
+            "day": 4,
+            "region": "Thanjavur",
+            "places": [
+              {
+                "name": "Brihadeeswara Temple",
+                "location": "Thanjavur",
+                "category": "spiritual",
+                "duration": "2 hours",
+                "entry_fee": "Free",
+                "image": "/images/Brihadeeswara Temple.webp"
+              },
+              {
+                "name": "Thanjavur Maratha Palace",
+                "location": "Thanjavur",
+                "category": "historical",
+                "duration": "2-3 hours",
+                "entry_fee": "₹50 (Indians), ₹100 (Foreigners)",
+                "image": "/images/Thanjavur Maratha Palace.jpg"
+              },
+              {
+                "name": "Thanjavur Paintings",
+                "location": "Thanjavur",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹2,000 - ₹50,000",
+                "image": "/images/Thanjavur Paintings.jpg"
+              }
+            ],
+            "estimatedCost": 2800
+          },
+          {
+            "day": 5,
+            "region": "Thanjavur Area",
+            "places": [
+              {
+                "name": "Swamimalai Bronze Sculptures",
+                "location": "Swamimalai, Thanjavur",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹10,000 - ₹5,00,000",
+                "image": "/images/Swamimalai Bronze Sculptures.avif"
+              },
+              {
+                "name": "Thanjavur Bobblehead Dolls",
+                "location": "Thanjavur",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹200 - ₹2,000",
+                "image": "/images/Thanjavur Bobblehead Dolls.jpg"
+              }
+            ],
+            "estimatedCost": 2500
+          },
+          {
+            "day": 6,
+            "region": "Travel to Madurai",
+            "places": [
+              {
+                "name": "Chettinad Mansions",
+                "location": "Sivaganga District",
+                "category": "historical",
+                "duration": "Half day",
+                "entry_fee": "Varies (some private)",
+                "image": "/images/Chettinad Mansions.jpg"
+              }
+            ],
+            "estimatedCost": 3000
+          },
+          {
+            "day": 7,
+            "region": "Madurai",
+            "places": [
+              {
+                "name": "Meenakshi Amman Temple",
+                "location": "Madurai",
+                "category": "spiritual",
+                "duration": "2-3 hours",
+                "entry_fee": "Free (Camera ₹50)",
+                "image": "/images/Meenakshi Amman Temple.webp"
+              },
+              {
+                "name": "Thirumalai Nayak Palace",
+                "location": "Madurai",
+                "category": "historical",
+                "duration": "2 hours",
+                "entry_fee": "₹10 (Indians), ₹50 (Foreigners)",
+                "image": "/images/Thirumalai Nayak Palace.jpg"
+              }
+            ],
+            "estimatedCost": 2500
+          },
+          {
+            "day": 8,
+            "region": "Kanyakumari (240km)",
+            "places": [
+              {
+                "name": "Vivekananda Rock Memorial",
+                "location": "Kanniyakumari",
+                "category": "spiritual",
+                "duration": "2-3 hours",
+                "entry_fee": "Ferry ₹50, Entry ₹20",
+                "image": "/images/Vivekananda Rock Memorial.jpg"
+              },
+              {
+                "name": "Thiruvalluvar Statue",
+                "location": "Kanniyakumari",
+                "category": "historical",
+                "duration": "1 hour",
+                "entry_fee": "Included with Vivekananda ticket",
+                "image": "/images/Thiruvalluvar Statue.webp"
+              }
+            ],
+            "estimatedCost": 3500
+          },
+          {
+            "day": 9,
+            "region": "Tirunelveli & Crafts",
+            "places": [
+              {
+                "name": "Pattamadai Silky Mats",
+                "location": "Pattamadai, Tirunelveli",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹1,000 - ₹10,000",
+                "image": "/images/Pattamadai Silky Mats.jpg"
+              },
+              {
+                "name": "Tirunelveli Wheat Halwa",
+                "location": "Tirunelveli",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹400 - ₹1,200 per kg",
+                "image": "/images/Tirunelveli Wheat Halwa.jpg"
+              }
+            ],
+            "estimatedCost": 2500
+          },
+          {
+            "day": 10,
+            "region": "Return Journey",
+            "places": [
+              {
+                "name": "Bhavani Jamakalam",
+                "location": "Bhavani, Erode",
+                "category": "crafts",
+                "duration": "2-3 hours",
+                "entry_fee": "₹500 - ₹5,000",
+                "image": "/images/Bhavani Jamakalam.jpg"
+              }
+            ],
+            "estimatedCost": 2000
+          }
+        ],
+        "summary": {
+          "travelers": "1",
+          "duration": 10,
+          "packageName": "Ultimate Tamil Nadu Experience",
+          "description": "Complete circuit covering all major destinations from north to south",
+          "totalPlaces": 19,
+          "estimatedTotalCost": 28000,
+          "budgetMatch": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "sooriya",
+    "email": "sooriya@gmail.com",
+    "passwordHash": "$2a$10$h5U0aKB193thN.GlZrei/eDrdMlQlgG/VwFjZYMcnWfdPV5gwBIu2",
+    "bookmarks": [],
+    "itineraries": []
+  }
+]
