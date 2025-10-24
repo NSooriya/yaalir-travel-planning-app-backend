@@ -10,15 +10,22 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["tamil nadu", "heritage", "travel", "api"],
+  "keywords": [
+    "tamil nadu",
+    "heritage",
+    "travel",
+    "api"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.2",
-    "dotenv": "^16.3.1"
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^12.4.0",
+    "firebase-admin": "^13.5.0",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"

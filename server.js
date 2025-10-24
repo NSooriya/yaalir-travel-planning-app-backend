@@ -1,10 +1,15 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const { readJSON } = require('./utils/fileHandler');
+const FirestoreService = require('./services/firestoreService');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+
+// Initialize Firestore services
+const heritageService = new FirestoreService('heritage');
+const craftsService = new FirestoreService('crafts');
+const marketplaceService = new FirestoreService('marketplace');
 
 // CORS Configuration
 const allowedOrigins = [
@@ -49,7 +54,7 @@ app.use('/api/itinerary', itineraryRoutes);
 // Get all heritage sites
 app.get('/api/heritage', async (req, res) => {
   try {
-    const heritage = await readJSON('heritage.json');
+    const heritage = await heritageService.getAll();
     res.json(heritage);
   } catch (error) {
     console.error('Error fetching heritage:', error);
@@ -60,7 +65,7 @@ app.get('/api/heritage', async (req, res) => {
 // Get all crafts
 app.get('/api/crafts', async (req, res) => {
   try {
-    const crafts = await readJSON('crafts.json');
+    const crafts = await craftsService.getAll();
     res.json(crafts);
   } catch (error) {
     console.error('Error fetching crafts:', error);
@@ -71,7 +76,7 @@ app.get('/api/crafts', async (req, res) => {
 // Get marketplace items
 app.get('/api/marketplace', async (req, res) => {
   try {
-    const marketplace = await readJSON('marketplace.json');
+    const marketplace = await marketplaceService.getAll();
     res.json(marketplace);
   } catch (error) {
     console.error('Error fetching marketplace:', error);
@@ -79,9 +84,10 @@ app.get('/api/marketplace', async (req, res) => {
   }
 });
 
-// Get language translations
+// Get language translations (keeping JSON for now as it's static config)
 app.get('/api/lang', async (req, res) => {
   try {
+    const { readJSON } = require('./utils/fileHandler');
     const lang = await readJSON('lang.json');
     res.json(lang);
   } catch (error) {

@@ -1,9 +1,10 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
-const { readJSON, writeJSON } = require('../utils/fileHandler');
-const { generateToken } = require('../utils/jwt');
+const FirestoreService = require('../services/firestoreService');
+const { generateToken, verifyToken } = require('../utils/jwt');
 
 const router = express.Router();
+const usersService = new FirestoreService('users');
 
 // Register new user
 router.post('/register', async (req, res) => {
@@ -15,12 +16,9 @@ router.post('/register', async (req, res) => {
       return res.status(400).json({ error: 'All fields are required' });
     }
 
-    // Read existing users
-    const users = await readJSON('users.json');
-
     // Check if user already exists
-    const existingUser = users.find(u => u.email === email);
-    if (existingUser) {
+    const existingUsers = await usersService.query('email', '==', email);
+    if (existingUsers.length > 0) {
       return res.status(400).json({ error: 'Email already registered' });
     }
 
@@ -28,17 +26,14 @@ router.post('/register', async (req, res) => {
     const passwordHash = await bcrypt.hash(password, 10);
 
     // Create new user
-    const newUser = {
-      id: users.length > 0 ? Math.max(...users.map(u => u.id)) + 1 : 1,
+    const newUser = await usersService.create({
       name,
       email,
       passwordHash,
       bookmarks: [],
-      itineraries: []
-    };
-
-    users.push(newUser);
-    await writeJSON('users.json', users);
+      itineraries: [],
+      createdAt: new Date().toISOString()
+    });
 
     // Generate token
     const token = generateToken(newUser.id, newUser.email);
@@ -68,14 +63,13 @@ router.post('/login', async (req, res) => {
       return res.status(400).json({ error: 'Email and password are required' });
     }
 
-    // Read users
-    const users = await readJSON('users.json');
-
     // Find user
-    const user = users.find(u => u.email === email);
-    if (!user) {
+    const users = await usersService.query('email', '==', email);
+    if (users.length === 0) {
       return res.status(401).json({ error: 'Invalid email or password' });
     }
+
+    const user = users[0];
 
     // Verify password
     const isValidPassword = await bcrypt.compare(password, user.passwordHash);
@@ -111,15 +105,13 @@ router.get('/me', async (req, res) => {
       return res.status(401).json({ error: 'Access token required' });
     }
 
-    const { verifyToken } = require('../utils/jwt');
     const decoded = verifyToken(token);
 
     if (!decoded) {
       return res.status(403).json({ error: 'Invalid or expired token' });
     }
 
-    const users = await readJSON('users.json');
-    const user = users.find(u => u.id === decoded.userId);
+    const user = await usersService.getById(decoded.userId);
 
     if (!user) {
       return res.status(404).json({ error: 'User not found' });
@@ -129,8 +121,8 @@ router.get('/me', async (req, res) => {
       id: user.id,
       name: user.name,
       email: user.email,
-      bookmarks: user.bookmarks,
-      itineraries: user.itineraries
+      bookmarks: user.bookmarks || [],
+      itineraries: user.itineraries || []
     });
   } catch (error) {
     console.error('Get user error:', error);

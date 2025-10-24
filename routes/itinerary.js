@@ -1,16 +1,19 @@
 const express = require('express');
-const { readJSON, writeJSON } = require('../utils/fileHandler');
+const FirestoreService = require('../services/firestoreService');
 const { authenticateToken } = require('../utils/jwt');
 
 const router = express.Router();
+const usersService = new FirestoreService('users');
+const heritageService = new FirestoreService('heritage');
+const craftsService = new FirestoreService('crafts');
 
 // Generate itinerary based on preferences
 router.post('/generate', authenticateToken, async (req, res) => {
   try {
     const { travelers, duration, budget, interests } = req.body;
 
-    const heritage = await readJSON('heritage.json');
-    const crafts = await readJSON('crafts.json');
+    const heritage = await heritageService.getAll();
+    const crafts = await craftsService.getAll();
 
     // Pre-defined packages based on proximity and realistic travel
     const packages = {
@@ -249,10 +252,9 @@ router.post('/save', authenticateToken, async (req, res) => {
     const { title, duration, estimatedCost, description, details, itineraryData } = req.body;
     const userId = req.user.userId;
 
-    const users = await readJSON('users.json');
-    const userIndex = users.findIndex(u => u.id === userId);
+    const user = await usersService.getById(userId);
 
-    if (userIndex === -1) {
+    if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }
 
@@ -268,8 +270,8 @@ router.post('/save', authenticateToken, async (req, res) => {
       itinerary: itineraryData?.itinerary || []
     };
 
-    users[userIndex].itineraries.push(savedItinerary);
-    await writeJSON('users.json', users);
+    // Add itinerary to user's array
+    await usersService.arrayAdd(userId, 'itineraries', savedItinerary);
 
     res.json({ message: 'Itinerary saved', itinerary: savedItinerary });
   } catch (error) {
@@ -282,14 +284,13 @@ router.post('/save', authenticateToken, async (req, res) => {
 router.get('/', authenticateToken, async (req, res) => {
   try {
     const userId = req.user.userId;
-    const users = await readJSON('users.json');
-    const user = users.find(u => u.id === userId);
+    const user = await usersService.getById(userId);
 
     if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }
 
-    res.json({ itineraries: user.itineraries });
+    res.json({ itineraries: user.itineraries || [] });
   } catch (error) {
     console.error('Get itineraries error:', error);
     res.status(500).json({ error: 'Server error' });
